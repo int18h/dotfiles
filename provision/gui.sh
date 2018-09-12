@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sudo apt-get install -y atril pluma
+
 sudo add-apt-repository -y ppa:atareao/telegram
 sudo add-apt-repository -y ppa:webupd8team/java
 # make sure you have 'apt-transport-https' installed
