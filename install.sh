@@ -18,6 +18,10 @@ ln -s "${DOTFILES}/zshrc" "${HOME}/.zshrc"
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-rm $HOME/.spacemacs
+mv $HOME/.spacemacs ~/.spacemacs.original
 ln -s $DOTFILES/spacemacs $HOME/.spacemacs
+
+mv $CONFIG_DIR/terminator $CONFIG_DIR/terminator.original
+mkdir -p $CONFIG_DIR/terminator
+ln -s $DOTFILES/terminator $CONFIG_DIR/terminator/config
 
