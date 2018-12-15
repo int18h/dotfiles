@@ -23,12 +23,13 @@
 [plugins]
 [profiles]
   [[default]]
-    cursor_color = "#aaaaaa"
+    background_image = None
     font = FuraMono Nerd Font Mono 9
     use_system_font = False
   [[Base16RailscastsDark]]
     allow_bold = False
     background_color = "#2b2b2b"
+    background_image = None
     copy_on_selection = True
     cursor_color = "#bbbbbb"
     font = Meslo LG L DZ 9
@@ -40,6 +41,7 @@
     use_system_font = False
   [[Dracula]]
     background_color = "#1e1f29"
+    background_image = None
     cursor_color = "#bbbbbb"
     font = Meslo LG L DZ 9
     foreground_color = "#f8f8f2"
@@ -50,6 +52,7 @@
     use_system_font = False
   [[JetBrainsDarcula]]
     background_color = "#202020"
+    background_image = None
     cursor_color = "#ffffff"
     font = FuraMono Nerd Font Mono 9
     foreground_color = "#adadad"
@@ -60,9 +63,10 @@
     use_system_font = False
   [[MonokaiSoda]]
     background_color = "#1a1a1a"
+    background_image = None
     copy_on_selection = True
     cursor_color = "#f6f7ec"
-    font = Fira Mono for Powerline 9
+    font = FuraMono Nerd Font Mono 9
     foreground_color = "#c4c5b5"
     palette = "#1a1a1a:#f4005f:#98e024:#fa8419:#9d65ff:#f4005f:#58d1eb:#c4c5b5:#625e4c:#f4005f:#98e024:#e0d561:#9d65ff:#f4005f:#58d1eb:#f6f6ef"
     scrollback_infinite = True
@@ -71,6 +75,7 @@
   [[OneDark]]
     background_color = "#282c34"
     background_darkness = 0.98
+    background_image = None
     copy_on_selection = True
     cursor_color = "#bbbbbb"
     font = Fira Mono for Powerline 9
@@ -83,12 +88,14 @@
     use_system_font = False
   [[SpaceGray]]
     background_color = "#20242d"
+    background_image = None
     cursor_color = "#b3b8c3"
     foreground_color = "#b3b8c3"
     palette = "#000000:#b04b57:#87b379:#e5c179:#7d8fa4:#a47996:#85a7a5:#b3b8c3:#000000:#b04b57:#87b379:#e5c179:#7d8fa4:#a47996:#85a7a5:#ffffff"
   [[monokai]]
     allow_bold = False
     background_color = "#0d0d0d"
+    background_image = None
     font = DejaVu Sans Mono 10
     foreground_color = "#ffffff"
     palette = "#000000:#f92672:#6cc72c:#fe9720:#5f91ef:#9358fe:#36af90:#8c8c8c:#4c4c4c:#ff80f4:#a7e22e:#ffee99:#5fd9ef:#ae82fe:#66efd5:#c7cece"

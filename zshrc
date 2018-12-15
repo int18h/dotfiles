@@ -87,7 +87,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Go settings
 export GOROOT=/usr/local/opt/go
-export GOPATH=$HOME/go
+export GOPATH=$HOME/Workspace/Golang
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
