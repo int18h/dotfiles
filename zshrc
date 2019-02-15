@@ -123,3 +123,6 @@ export JWT_SECRET='16ddcd4ea28c602a41702fc85a63e5a88e352956ea147efb2ab9e074d9a5a
 
 # RBENV init
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+export NVM_DIR="/home/dmitriygoncharov/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
