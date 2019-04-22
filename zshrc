@@ -86,8 +86,8 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Go settings
-export GOROOT=/usr/local/opt/go
-export GOPATH=$HOME/Workspace/Golang
+export GOROOT=/usr/local/opt/go/libexec
+export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -108,6 +108,8 @@ alias intoprevensysui="cd ${HOME}/Workspace/prevensys-web-console"
 alias intoprevensysimage="cd ${HOME}/Workspace/prevensys-image"
 alias intogochat="cd ${HOME}/Workspace/GoChat/api"
 
+alias tmux="tmux -u"
+
 export DOTFILES=$HOME/.dotfiles
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export ANDROID_NDK_ROOT="/usr/local/share/android-ndk"
@@ -123,3 +125,6 @@ export JWT_SECRET='16ddcd4ea28c602a41702fc85a63e5a88e352956ea147efb2ab9e074d9a5a
 
 # RBENV init
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+export NVM_DIR="/Users/dmitriygoncharov/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

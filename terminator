@@ -24,7 +24,7 @@
 [profiles]
   [[default]]
     background_image = None
-    font = FuraMono Nerd Font Mono 9
+    font = Fira Mono 10
     use_system_font = False
   [[Base16RailscastsDark]]
     allow_bold = False
