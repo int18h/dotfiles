@@ -114,8 +114,8 @@ export DOTFILES=$HOME/.dotfiles
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export ANDROID_NDK_ROOT="/usr/local/share/android-ndk"
 export AWS_REGION=us-west-2
-export AWS_ACCESS_KEY_ID=AKIAJ5ADO4MBZPVRMAEA 
-export AWS_SECRET_KEY=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 
+export AWS_ACCESS_KEY_ID=AKIAJ5ADO4MBZPVRMAEA
+export AWS_SECRET_KEY=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
 export AWS_DDB_ENDPOINT=dynamodb.us-west-2.amazonaws.com
 export FACEBOOK_KEY='1720911634696183'
 export FACEBOOK_SECRET='6d97e3a803c752788305f1f2a4761e2b'
@@ -126,5 +126,5 @@ export JWT_SECRET='16ddcd4ea28c602a41702fc85a63e5a88e352956ea147efb2ab9e074d9a5a
 # RBENV init
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-export NVM_DIR="/Users/dmitriygoncharov/.nvm"
+export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
