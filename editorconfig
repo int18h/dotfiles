@@ -77,6 +77,10 @@ indent_size = 2
 indent_style = space
 indent_size = 4
 
+[*.dart]
+indent_style = space
+indent_size = 2
+
 # Gemfile
 [Gemfile]
 indent_style = space
