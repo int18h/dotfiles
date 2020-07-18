@@ -86,9 +86,10 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Go settings
-export GOROOT=/usr/local/opt/go/libexec
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+# export GOROOT=/usr/local/opt/go/libexec
+# export GOPATH=$HOME/go
+# export GO111MODULE=on
+# export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -103,28 +104,15 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # alias vimdiff="`which nvim` -d"
 # alias oldvim="vim"
 
-alias intoprevensysagent="cd ${GOPATH}/src/github.com/influxdata/telegraf"
-alias intoprevensysui="cd ${HOME}/Workspace/prevensys-web-console"
-alias intoprevensysimage="cd ${HOME}/Workspace/prevensys-image"
-alias intogochat="cd ${HOME}/Workspace/GoChat/api"
-
 alias tmux="tmux -u"
 
 export DOTFILES=$HOME/.dotfiles
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export ANDROID_NDK_ROOT="/usr/local/share/android-ndk"
-export AWS_REGION=us-west-2
-export AWS_ACCESS_KEY_ID=AKIAJ5ADO4MBZPVRMAEA
-export AWS_SECRET_KEY=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
-export AWS_DDB_ENDPOINT=dynamodb.us-west-2.amazonaws.com
-export FACEBOOK_KEY='1720911634696183'
-export FACEBOOK_SECRET='6d97e3a803c752788305f1f2a4761e2b'
-# export FACEBOOK_KEY='225655704822734'
-# export FACEBOOK_SECRET='10f268fcf85c27e2cf51230a9d2f5b1d'
-export JWT_SECRET='16ddcd4ea28c602a41702fc85a63e5a88e352956ea147efb2ab9e074d9a5ae876fa470dfb2d5132a57f0f58be565f5390f32fda3ac3e43dd77db7f63348d69e3'
 
 # RBENV init
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 export NVM_DIR="${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

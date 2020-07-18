@@ -85,3 +85,7 @@ indent_size = 2
 [Gemfile]
 indent_style = space
 indent_size = 2
+
+[*.rake]
+indent_style = space
+indent_size = 2
