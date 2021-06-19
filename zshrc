@@ -61,6 +61,7 @@ POWERLEVEL9K_MODE='nerdfont-complete'
 plugins=(
   git
   rbenv
+  ssh-agent
 )
 
 source $ZSH/oh-my-zsh.sh
